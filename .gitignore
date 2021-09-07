@@ -1,0 +1,5 @@
+# Default ignored files
+/shelf/
+.idea/
+ToDo.txt
+src/main/resources/dbConnect.properties

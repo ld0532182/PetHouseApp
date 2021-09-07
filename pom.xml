@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.pethouse.pethouseapp/com.pethouse.pethouseapp.HelloApplication</mainClass>
+                            <mainClass>com.pethouse.pethouseapp/com.pethouse.pethouseapp.PetHouseMain</mainClass>
                         </configuration>
                     </execution>
                 </executions>

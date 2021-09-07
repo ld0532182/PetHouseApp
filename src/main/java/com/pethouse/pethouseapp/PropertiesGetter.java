@@ -11,6 +11,8 @@ public final class PropertiesGetter {
     private final String DB_USER;
     private final String DB_PASS;
     private final String DB_NAME;
+    private final String DB_TABLE_ANIMAL;
+    private final String DB_TABLE_PERSON;
     private final String PATH_TO_PROPERTIES = "src/main/resources/dbConnect.properties";
 
     public PropertiesGetter(){
@@ -20,6 +22,9 @@ public final class PropertiesGetter {
         this.DB_USER = prop.getProperty("dbUser");
         this.DB_PASS = prop.getProperty("dbPass");
         this.DB_NAME = prop.getProperty("dbName");
+        this.DB_TABLE_ANIMAL = prop.getProperty("dbTableAnimal");
+        this.DB_TABLE_PERSON = prop.getProperty("dbTablePerson");
+
 
     }
 
@@ -39,9 +44,11 @@ public final class PropertiesGetter {
         return DB_PASS;
     }
 
-    public String getDB_NAME() {
-        return DB_NAME;
-    }
+    public String getDB_NAME() { return DB_NAME; }
+
+    public String getDB_TABLE_ANIMAL() { return DB_TABLE_ANIMAL; }
+
+    public String getDB_TABLE_PERSON() { return DB_TABLE_PERSON; }
 
     private Properties getProperties(){
         FileInputStream fileInputStream;

@@ -1,4 +1,4 @@
-package com.pethouse.pethouseapp;
+package com.pethouse.pethouseapp.javafxclasses;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

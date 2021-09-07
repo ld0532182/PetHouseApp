@@ -3,3 +3,4 @@
 .idea/
 ToDo.txt
 src/main/resources/dbConnect.properties
+target/

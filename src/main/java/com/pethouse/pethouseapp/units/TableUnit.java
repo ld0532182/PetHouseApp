@@ -10,6 +10,9 @@ public  abstract class TableUnit {
     private Size size;
     private Species species;
 
+    public TableUnit(){
+    }
+
     public TableUnit(String name, Color color, Gender gender, Size size, Species species) {
         this.name = name;
         this.color = color;
